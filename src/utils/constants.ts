@@ -40,6 +40,23 @@ export interface Dev {
     badge?: boolean;
 }
 
+// Authors of Equicord plugins ported to Endcord.
+export const EquicordDevs = /* #__PURE__*/ Object.freeze({
+    omaw: { name: "omaw", id: 1155026301791514655n },
+    zoodogood: { name: "zoodogood", id: 921403577539387454n },
+    keircn: { name: "Key", id: 1230319937155760131n },
+    tt: { name: "_.tt", id: 497966466617049089n },
+    lucabeyer: { name: "luca.beyer", id: 405090676771127317n },
+    bep: { name: "bep", id: 0n },
+    vei: { name: "Vei", id: 239414094799699968n },
+    justjxke: { name: "justjxke", id: 852558183087472640n },
+    iamme: { name: "i am me", id: 984392761929256980n },
+    talhakf: { name: "talhakf", id: 1140716160560676976n },
+    Panniku: { name: "Panniku", id: 703634705152606318n },
+    benjii: { name: "Benjii", id: 463702169443368970n },
+    Moowi: { name: "Moowi", id: 246128594756173824n },
+});
+
 /**
  * If you made a plugin or substantial contribution, add yourself here.
  * This object is used for the plugin author list, as well as to add a contributor badge to your profile.

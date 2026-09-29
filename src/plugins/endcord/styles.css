@@ -1,0 +1,98 @@
+.ec-control-center {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px 0;
+}
+
+.ec-hero {
+    align-items: center;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--endcord-accent, #5865f2) 22%, var(--background-secondary)), var(--background-secondary));
+    border: 1px solid var(--endcord-accent, #5865f2);
+    border-radius: 12px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.ec-profile-pill {
+    border-radius: 999px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 10px;
+    white-space: nowrap;
+}
+
+.ec-tabs,
+.ec-section-content,
+.ec-row,
+.ec-fields,
+.ec-grid {
+    display: flex;
+    gap: 10px;
+}
+
+.ec-tabs {
+    flex-wrap: wrap;
+}
+
+.ec-section {
+    background: var(--background-secondary);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.ec-section-content,
+.ec-row,
+.ec-fields {
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.ec-row {
+    border-top: 1px solid var(--background-modifier-accent);
+    padding-top: 14px;
+}
+
+.ec-field {
+    color: var(--header-primary);
+    display: grid;
+    font-size: 12px;
+    font-weight: 600;
+    gap: 6px;
+}
+
+.ec-grid {
+    flex-wrap: wrap;
+}
+
+.ec-card {
+    background: var(--background-tertiary);
+    border-radius: 8px;
+    display: flex;
+    flex: 1 1 130px;
+    flex-direction: column;
+    gap: 3px;
+    padding: 12px;
+}
+
+.ec-card span {
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
+.ec-profile-badge {
+    align-items: center;
+    background: color-mix(in srgb, currentcolor 16%, transparent);
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 11px;
+    font-weight: 800;
+    height: 16px;
+    justify-content: center;
+    margin: 0 2px;
+    min-width: 16px;
+    padding: 0 3px;
+}

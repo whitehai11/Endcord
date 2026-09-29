@@ -25,7 +25,7 @@ import { Readable } from "stream";
 import { finished } from "stream/promises";
 import { fileURLToPath } from "url";
 
-const BASE_URL = "https://github.com/Vencord/Installer/releases/latest/download/";
+const BASE_URL = "https://github.com/whitehai11/EndcordInstaller/releases/latest/download/";
 
 const BASE_DIR = join(dirname(fileURLToPath(import.meta.url)), "..");
 const FILE_DIR = join(BASE_DIR, "dist", "Installer");
@@ -34,11 +34,11 @@ const ETAG_FILE = join(FILE_DIR, "etag.txt");
 function getFilename() {
     switch (process.platform) {
         case "win32":
-            return "VencordInstallerCli.exe";
+            return "EndcordInstallerCli.exe";
         case "darwin":
-            return "VencordInstallerCli-darwin";
+            return "EndcordInstallerCli-darwin";
         case "linux":
-            return "VencordInstallerCli-linux";
+            return "EndcordInstallerCli-linux";
         default:
             throw new Error("Unsupported platform: " + process.platform);
     }
@@ -58,7 +58,7 @@ async function ensureBinary() {
 
     const res = await fetch(BASE_URL + filename, {
         headers: {
-            "User-Agent": "Vencord (https://github.com/Vendicated/Vencord)",
+            "User-Agent": "Endcord (https://github.com/whitehai11/Endcord)",
             "If-None-Match": etag
         }
     });
@@ -97,8 +97,8 @@ try {
         stdio: "inherit",
         env: {
             ...process.env,
-            VENCORD_USER_DATA_DIR: BASE_DIR,
-            VENCORD_DEV_INSTALL: "1"
+            ENDCORD_USER_DATA_DIR: BASE_DIR,
+            ENDCORD_DEV_INSTALL: "1"
         }
     });
 } catch {

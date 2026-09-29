@@ -1,0 +1,3 @@
+[submodule "src/plugins/fakeProfile"]
+	path = src/plugins/fakeProfile
+	url = https://github.com/gujarathisampath/fakeProfile.git
