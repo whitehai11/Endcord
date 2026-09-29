@@ -126,4 +126,3 @@ export default definePlugin({
         return <StreakBadge userId={user.id} />;
     },
 });
-

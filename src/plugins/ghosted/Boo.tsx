@@ -202,4 +202,3 @@ export function Boo({ channel }: { channel: Channel; }) {
         </div>
     );
 }
-

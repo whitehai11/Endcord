@@ -52,4 +52,3 @@ export default definePlugin({
         clearInterval(dataManager._storageAutoSaveProtocol_interval);
     },
 });
-

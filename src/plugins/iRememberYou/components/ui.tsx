@@ -169,4 +169,3 @@ export function DataUI({ usersCollection }: { usersCollection: Data["usersCollec
 }
 
 export default wrapTab(DataUI, "IRememberYouTab");
-

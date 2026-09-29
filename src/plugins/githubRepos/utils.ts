@@ -59,4 +59,3 @@ export function sortGroups(groups: RepoGroup[], mode: RepoSortMode): RepoGroup[]
 
     return personal ? [personal, ...sorted] : sorted;
 }
-

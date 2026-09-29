@@ -65,4 +65,3 @@ const colors: Record<string, string> = {
 export function getLanguageColor(language: string): string {
     return colors[language] || "#858585";
 }
-

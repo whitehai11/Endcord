@@ -145,4 +145,3 @@ export function GhostedUsersModal({ modalProps, ghostedChannels: initialChannels
         </Modal>
     );
 }
-

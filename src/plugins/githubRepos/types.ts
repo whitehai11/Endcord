@@ -43,4 +43,3 @@ export interface RepoCardProps {
     showStars: boolean;
     showLanguage: boolean;
 }
-

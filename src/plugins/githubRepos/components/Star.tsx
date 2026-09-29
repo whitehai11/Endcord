@@ -20,4 +20,3 @@ export function Star({ className, width = 16, height = 16 }: IconProps) {
         </svg>
     );
 }
-

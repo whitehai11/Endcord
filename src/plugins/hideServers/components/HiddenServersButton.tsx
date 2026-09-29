@@ -35,4 +35,3 @@ function HiddenServersButton() {
 }
 
 export default () => { return <HiddenServersButton />; };
-

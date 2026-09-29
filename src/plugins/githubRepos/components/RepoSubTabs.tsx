@@ -58,4 +58,3 @@ export function RepoSubTabs({ groups, activeKey, onSelect, sortMode, onToggleSor
         </div>
     );
 }
-

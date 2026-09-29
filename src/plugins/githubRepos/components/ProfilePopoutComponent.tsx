@@ -126,4 +126,3 @@ export function ProfilePopoutComponent({ id, isSideBar = false, isRedesignEnable
         ? <div className={DMSideBarClasses.widgetPreviews}>{reposSection}</div>
         : reposSection;
 }
-

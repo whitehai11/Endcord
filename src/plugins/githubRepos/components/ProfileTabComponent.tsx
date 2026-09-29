@@ -106,4 +106,3 @@ export function ProfileTabComponent({ id }: { id: string, theme: string; }) {
         </div>
     );
 }
-

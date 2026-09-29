@@ -74,4 +74,3 @@ export const HiddenServersStore = proxyLazyWebpack(() => {
 
     return new HiddenServersStore(FluxDispatcher);
 });
-

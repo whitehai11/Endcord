@@ -193,4 +193,3 @@ export default definePlugin({
         removeServerListElement(ServerListRenderPosition.Above, this.renderIndicator);
     },
 });
-

@@ -66,4 +66,3 @@ export function RepoCard({ repo, showStars, showLanguage }: RepoCardProps) {
         </div>
     );
 }
-

@@ -185,4 +185,3 @@ export default definePlugin({
         getBadgesToApply().forEach(b => Badges.removeProfileBadge(b));
     },
 });
-

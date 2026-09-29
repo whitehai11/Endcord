@@ -82,4 +82,3 @@ export const settings = definePluginSettings({
         default: "#f59e0b"
     }
 });
-
